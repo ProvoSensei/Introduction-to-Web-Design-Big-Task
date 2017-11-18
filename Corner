@@ -1,0 +1,35 @@
+<!DOCTYPE html />
+<html>
+<head>
+	<title>TP NOMOR 4</title>
+	<meta charset="UTF-8" />
+	<meta name="Writer" content="Luthfi" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="Index2Style.css" />
+</head>
+<body>
+	<div class="kontainer">
+	<img src="Sultan palsu.jpg" title="Sultan boongan" class="gambar" style="width:400px;"/>
+	<div class="kotaktengah">
+		<div class="text">Ini saya</div>
+	</div>
+	</div>
+	<div class="box">
+		<h1>Term And Condition</h1>
+		<p>Mau install game?</p>
+	</div>
+	<center><button class="tombol">Ya, Term & Condition akan saya baca</button></center>
+	<div class="tengah">
+		<div class="pagination">
+			<a href="#">&laquo;</a>
+			<a href="#">1</a>
+			<a href="" class="active">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<a href="#">5</a>
+			<a href="#">6</a>
+			<a href="#">&laquo;</a>
+		</div>
+	</div>
+</body>
+</html>
