@@ -1,0 +1,165 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description">
+	<title>Setting</title>
+	<link rel="stylesheet" type="text/css" href="css/setting.css">
+	<link href="LOGO SAJA.png" rel="shortcut icon">
+</script>
+</head>
+<body>
+	<div class="kiri">
+		<div class="set">
+			<p>USER SETTINGS</p>
+		</div>
+		<div id="akun">
+			<p>My Account</p>
+		</div>
+		<div id="logout">
+			<button id="myBt">Log Out</button>
+			<!-- The Modal -->
+<div id="myMod" class="mod">
+
+  <!-- Modal content -->
+  <div class="mod-content">
+    <div class="mod-header">
+      <span class="closee">&times;</span>
+      <h2>Are you sure want to exit?</h2>
+    </div>
+    <div class="mod-body">
+		<img src="../Gambar/device.png">
+    </div>
+    <div class="mod-footer">
+		<div class="yes">
+			<h3><a href="Index.html">Yes</a></h3>
+		</div>
+		<div class="no">
+			<h4><a href="setting.html">No</a></h4>
+		</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var mod = document.getElementById('myMod');
+
+// Get the button that opens the modal
+var bt = document.getElementById("myBt");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closee")[0];
+
+// When the user clicks the button, open the modal 
+bt.onclick = function() {
+    mod.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    mod.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+		</div>
+	</div>
+
+
+	<div class="kanan">
+		<div class="kotak">
+			<div id="foto">
+				<img src="../Gambar/b.jpg">
+			</div>
+			<div id ="edit">
+				<button id="myBtn">Edit</button>
+			</div>
+			<form>
+				<div id="username">
+					<p>Username</p>
+				</div>
+				<div id="kotakusername">
+					<p style="color:grey">Nindy Haris Putri</p>
+				</div>
+				<div id="email">
+					<p>Email</p>
+				</div>
+				<div id="kotakemail" style="color:grey">
+					<p>nindyharisputri@gmail.com</p>
+				</div>
+			</form>
+			<div id="device">
+				<img src="../Gambar/device.png">
+			</div>
+	</div>
+
+		<!-- The Modal -->
+		<div id = "horizontalTab">
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-body">
+    	<span class="close">&times;</span>
+    	<div class="fotomodal">
+    		<img src="../Gambar/b.jpg" >
+    	</div>
+		<form  method="post" enctype="multipart/form-data" action="AddFriend.html">
+			<div class="user">
+				<p>Username</p>
+				<input type="text">
+			</div>
+			<div class="email">
+				<p>Email</p>
+				<input type="email">
+			</div>
+			<div class="pass">
+				<p>Current Password</p>
+				<input type="password">
+			</div>
+			<div class ="save">
+				<input type="submit" value="save">
+			</div>
+		</form>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        mod.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
