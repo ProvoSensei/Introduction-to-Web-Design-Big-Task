@@ -1,0 +1,406 @@
+body {
+	background: 100%;
+	margin: 0px;
+}
+.kiri {
+	height:100%;
+	width:30%;
+	background-color: #363960;
+	float: left;
+	margin: 0px;
+}
+.kiri .set {
+	float: right;
+	width: 110px;
+	height:2em;
+}
+.kiri .set p {
+	font-size: 13px;
+	font-family: sans-serif;
+	color: white;
+}
+.kiri #akun {
+	background-color: #8080ff;
+	width: 120px;
+	height: 2em;
+	float:right;
+	margin: 0px;
+	margin-bottom: 0px;
+	margin-top: 2em;
+	margin-right: -110px;
+
+}
+.kiri #akun p {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 1px;
+	color: white;
+	padding-left: 7px;
+	padding-bottom: 2px;
+	padding-top: -10px;
+	margin-top: 6px;
+}
+
+
+
+/* The Modal (background) */
+.mod {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.mod-content {
+    position: relative;
+    background-color:#363960;
+    margin-top:100px;
+    margin-left: 400px;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    height: 315px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animate {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animate {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+#myBt {
+	background-color:#363960;
+	color:red;
+	border:none;
+	font-family:sans-serif;
+	font-size:12px;
+	width: 90px;
+	height: 2em;
+	float:right;
+	margin-top: 6em;
+	margin-right: -75px;
+	
+}
+/* The Close Button */
+.closee {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.closee:hover,
+.closee:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mod-header {
+    padding: 2px 16px;
+    color: white;
+	font-family: sans-serif;
+	font-size:14px;
+	text-align:center;
+	margin-top: 20px;
+}
+
+.mod-body {padding: 2px 16px;}
+.mod-body img {
+	width:300px;
+	height:auto;
+	margin-left:100px;
+	margin-top: 10px;
+	opacity:0.5;
+}
+.mod-footer {
+    padding: 2px 16px;
+    color: white;
+}
+.mod-footer h3 {
+	float:left;
+	margin-left:50px;
+	margin-bottom: 0px;
+	background-color:#8080ff;
+	text-align:center;
+	text-decoration: none;
+	font-size:14px;
+	font-family: sans-serif;
+	width: 5em;
+	height: 2em;
+	padding-top: 0.7em;
+}
+.mod-footer h3 a {
+	text-decoration:none;
+	color:white;
+		padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 5px;
+	padding-top:5px;
+	
+}
+.mod-footer h4 {
+	float:right;
+	margin-right:50px;
+	margin-top: 10px;
+	background-color:#8080ff;
+	text-align:center;
+	font-size:15px;
+	font-family: sans-serif;
+	width: 5em;
+	height: 2em;
+	padding-top: 0.7em;
+	
+
+}
+.mod-footer h4 a {
+	text-decoration:none;
+	color:white;
+	
+}
+
+.kanan {
+	width: 70%;
+	height: 100%;
+	background-color: #4d527a;
+	float: right;
+	
+}
+.kanan .kotak {
+	float: left;
+	height: 10em;
+	width: 600px;
+	background-color: #333457;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.kanan .kotak #foto img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-left: 20px;
+
+}
+.kanan .kotak #edit {
+	float:right;
+	margin-top: -97px;
+	width: 1em;
+	height: 2em;
+}
+.kanan .kotak #edit button {
+	color: white;
+	text-align: center;
+	padding-top: -1em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-right: 4px;
+	margin-left: -22px;
+	background-color: #8080ff;
+	border: none;
+
+}
+.kanan .kotak form {
+	padding-bottom: 0px;
+	margin-top: -85px;
+	margin-left: 120px;
+}
+.kanan .kotak form #username {
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.kanan .kotak form #kotakusername p {
+	margin-bottom: -10px;
+	margin-top: -10px;
+	font-size: 17px;
+	font-family: sans-serif;
+
+}
+.kanan .kotak form #email {
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.kanan .kotak form #kotakemail {
+	margin-bottom: -10px;
+	margin-top: -10px;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+.kanan .kotak #device  img {
+	width: 150%;
+	height: auto;
+	margin-left: 130px;
+	margin-top: 120px;
+	opacity: 0.2;
+	
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color:#363960;
+    margin-top:100px;
+    margin-left: 400px;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    height: 260px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-body {padding: 2px 16px;}
+.modal .modal-content .modal-body .fotomodal img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.modal .modal-content .modal-body form {
+	margin-top:-100px;
+}
+.modal .modal-content .modal-body form .email {
+	margin-left: 130px;
+	margin-top: 10px;
+}
+.modal .modal-content .modal-body form .email p {
+	color:white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.modal .modal-content .modal-body form .email input {
+	margin-top: -7px;
+	width: 270px;
+}
+.modal .modal-content .modal-body form .user {
+	margin-left: 130px;
+	margin-top: 10px;
+}
+.modal .modal-content .modal-body form .user p {
+	color:white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.modal .modal-content .modal-body form .user input {
+	margin-top: -7px;
+	width: 270px;
+}
+.modal .modal-content .modal-body form .pass {
+	margin-left: 130px;
+	margin-top: 10px;
+}
+.modal .modal-content .modal-body form .pass p {
+	color:white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.modal .modal-content .modal-body form .pass input {
+	margin-top: -7px;
+	width: 270px;
+}
+.modal .modal-content .modal-body form .save {
+	float:right;
+	color: #8080ff;
+	margin-right: 30px;
+	border: none;
+	margin-top: 32px;
+
+}
+.modal .modal-content .modal-body form .save input {
+	font-size: 12px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #8080ff;
+	border: none;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+@media only screen and (max-width: 420px) {
+	.kiri {
+		float:none;
+		width:100%;
+	}
+	body {
+		width:100%;
+	}
+	.kanan {
+		width:100%;
+	}
+	.kanan.kotak {
+		width:100%;
+		float:none;
+	}
+	.kanan .kotak .device img {
+		width:150%;
+	}
+	
+	.kanan .kotak .form {
+		width:100%;
+	}
+	.mod {
+		width:100%;
+	}
+	.mod-content {
+		width:100%;
+	}
+}

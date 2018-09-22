@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Source Sans Pro;
+	background-image:url("../../Gambar/background.jpg");
+	background-size: cover;"
+}
+.wadah {
+	width: 40%;
+	height: 40%;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 10%;
+	background-color: white;
+	background-image: url("../../Gambar/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+.wadah h3 {
+	text-align: center;
+	color: #333457;
+}
+.kotak1, .kotak2{
+	width: 50%;
+	height: 80%;
+	float:	left;
+	margin: 0px;
+	padding: 0px;
+}
+input[type=text]{
+	width: 90%;
+	margin-left: 10px;
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	padding: 10px 20px;
+	background-color: #43ADC9;
+	color: white;
+}
+input[type=text]:focus {
+	background-color: #3791AA;
+}
+input[type=submit] {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid #44C7F4;
+	background-color: white;
+	color: #44C7F4;
+	padding: 10px 20px;
+}	
+input[type=submit]:hover {
+	background-color: #44C7F4;
+	color: white;
+	cursor: pointer;
+}
+.hd {
+	border-bottom: 3px solid yellow;
+	padding-bottom: 10px;
+	width: 50%;
+}
+::placeholder {
+	color: white;
+}
+@media only screen and (max-width: 1000px) {
+	.wadah {
+		width: 100%;
+		margin-top: 100px;
+	}
+	input[type=submit] {
+		width: 75%;
+	}
+}
+

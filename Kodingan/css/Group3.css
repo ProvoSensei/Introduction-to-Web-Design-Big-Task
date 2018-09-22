@@ -1,0 +1,562 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Source Sans Pro;
+}
+.kiri, .kanan, .TENGAH, .playeronline{
+	float: left;
+	border: 1px solid black;
+	height: 974px;
+}
+.kiri {
+	background-color: #333457;
+	width: 5%;
+}
+.kanan {
+	background-color: #4D527A;
+	width: 65%;
+}
+.TENGAH {
+	background-color: #363960;
+	width: 15%;
+}
+.playeronline {
+	background-color: #363960;
+	width: 15%;
+}
+.friend, .group, .group2, .add {
+	border-radius: 50%;
+	width: 70%;
+	height: auto;
+	margin: 10 10 0 14px;
+}
+.online {
+	text-align: center;
+	color: white;
+}
+.garis1 {
+	width: 40px;
+	margin-top: -10px;
+}
+.group, .group2, .add {
+	margin-top: 15px;
+	transition: .3s ease;
+}
+.group:hover, .group2:hover {
+	border-radius: 20px;
+}
+.add{
+	border: 1px dashed white;
+	padding: 10px;
+}
+.add:hover{
+	border-color: grey;
+}
+.group2 {
+	border-radius: 20%;
+	border: 1px solid white;
+}
+.totalgrup {
+	height: 750px;
+	overflow-y: auto;
+}
+.friend:hover {
+		border-radius: 20%;
+		transition: .3s ease;
+}
+.NamaGroup {
+	background-color: #363960;
+	width: auto;
+	height: 49px;
+	border-bottom: 1px solid black;
+	color: white;
+	margin-top: -18px;
+}
+.NamaGroup:hover {
+	background-color: #464B6D;
+}
+.NamaGroup h3 {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.ChannelGroup {
+	margin-top: 10px;
+	color: white;
+	width: auto;
+	height: 851;
+	overflow-y: auto;
+}
+.namachannel h3,  .namachannel2 h3{
+	padding: 10px 0px;
+	width: 85%;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
+}
+.namachannel h3{
+	background-color: #4A507C;
+}
+.namachannel2 h3:hover {
+	background-color: #464B6D;
+}
+.namachannel, .namachannel2 {
+	margin-top: 2px;
+}
+.akunkita {
+	position: relative;
+	top: -10;
+	margin: 0px;
+	padding: 0px;
+}
+.profilekita {
+	border-radius: 50%;
+	width: 15%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.profile {
+	padding-left: 10px;
+	background-color: #4F557F;
+	height: 60px;
+}
+.namakita {
+	margin-left: 65px;
+	margin-top: 10px;
+	padding-top: 10px;
+	color: white;
+	font-size: 16px;
+}
+.statusanda{
+	margin-left: 65px;
+	margin-top: -15px;
+	font-size: 10px;
+	color: white;
+}	
+.logosetting {
+	height: 30px;
+	width: auto;
+	margin-left: 230px;
+	margin-top: -35px;
+}
+.logosetting:hover {
+	background-color: #393E60;
+}
+.logohijauprofilekita img{
+	width: auto;
+	height: 10px;
+	position: relative;
+	top: -12;
+	left: 45;
+}
+.menuatas {
+	width: 65%;
+	height: 50px;
+	position: absolute;
+	top: 1;
+	float: left;
+	border: 1px solid black;
+}
+.penjelasnamagroup {
+	margin: 10px 0px 0px 20px;
+	color: white;
+}
+.boxchatting{
+	width: 98%;
+	height: 840px;
+	margin: auto;
+	margin-top: 70px;
+	display: block;
+	overflow-y: auto;
+}
+.chat1 {
+	border-top: 1px solid black;
+	padding-bottom: 7px; 
+	padding-top: 7px;
+	height: auto;
+}
+.fototeman{
+	width: 6%;
+	border-radius: 50%;
+	float: left;
+	padding: 10px;
+	margin-top: -1px;
+}
+.namatemenkita {
+	margin-left: 60px;
+	margin-top: 0px;
+	padding-top: 10px;
+	color: white;
+	height: auto;
+	font-size: 18px;
+}
+.namatemenkita:hover {
+	text-decoration: underline;
+}
+.Tanggal1{
+	margin-left: 220px;
+	margin-top: -35.5px;
+	height: auto;
+	font-size: 12px;
+	color: lightgrey;
+}
+.Tanggal2{
+	margin-left: 280px;
+	margin-top: -35.5px;
+	height: auto;
+	font-size: 12px;
+	color: lightgrey;
+}
+.Tanggal3 {
+	margin-left: 230px;
+	margin-top: -35.5px;
+	height: auto;
+	font-size: 12px;
+	color: lightgrey;
+}
+.isichat, .akhirisichat{
+	color: white;
+	font-size: 14px;
+	margin-top: 0px;
+	padding: 0px 0px 0px 100px;
+	width: 100%;
+}
+.akhirisichat {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+input[type=text] {
+	background-color: #4F557F;
+	margin: 10px 0px 0px 15px;
+	height: 30px;
+	padding: 5px;
+	width: 257px;
+	border: none;
+	color: white;
+}
+.addmessege input[type=text] {
+	width: 98%;
+	border: 1px solid black;
+	height: 45px;
+}
+::placeholder {
+	margin-left: 50px;
+	color: white;
+}
+.kotakteman {
+	margin-top: 0px;
+	width: auto;
+	height: 15px;
+}
+.pesanmasuk {
+	border-radius: 50%;
+	width: 15%;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.logohijaupesanmasuk {
+	width: auto;
+	height: 10px;
+	position: relative;
+	left: 25;
+	top: -18;
+}
+.namatemen {
+	margin-left: 42px;
+	margin-top: 0px;
+	color: white;  
+	font-size: 16px; 
+}
+.statustemen{
+	margin-left: 42px;
+	margin-top: -15px;
+	font-size: 10px; 
+	color : white;
+	text-decoration: none;
+}
+.active2 {
+	width: 90%;
+	height: 55px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: auto;
+	text-decoration: none;
+}
+.active {
+	width: 90%;
+	height: 55px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: auto;
+}
+.active2:hover, .active:hover {
+	background-color: #4A507C;
+}
+.namatemen:hover {
+	color: black;
+}
+.keteranganonline {
+	height: 50px;
+	border: 1px solid black;
+}
+.keteranganonline h3 {
+	margin-top: 12px;
+}
+.kotaktotal {
+	border: 1px solid black;
+	height: 95%;
+	overflow-y: auto;
+}
+.kotaktotal {
+	padding-top: 15px;
+}
+.playeryangada h3{
+	color: white;
+	padding-left: 20px;
+}
+.addmessege  {
+	height: 60px;
+}
+.addmessege input[type=text] {
+	width: 98%;
+	border: 1px solid black;
+	height: 40;
+	padding: 15px;
+	overflow: hidden;
+}
+::placeholder {
+	margin-left: 50px;
+}
+.kotakadd {
+	position: relative;
+	top: -55;
+	left: 1185;
+	width: 40px;
+	height: 40px;
+}
+.kotakadd img {
+	width: 36px;
+}
+.kotakadd button {
+	background-color: #333457;
+	border: none;
+	cursor: pointer;
+}
+.kotakadd button:hover {
+	background-color: #4F557F;
+	border: none;
+}
+a:link {
+	text-decoration: none;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	background:  #333457;
+} 
+::-webkit-scrollbar-thumb {
+	background:	#686bbf;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media only screen and (max-width: 800px) {
+	.kiri, .kanan, .tengah, .playeronline{
+		float: none;
+		text-align: center;
+		width: 100%;
+		height: auto;
+		display: inline-block;
+	}
+	.kanan {
+		margin-top: -27px;
+	}
+	button, .button2{
+		display: none;
+	}
+	.menuatas {
+		margin-top: 2120px;
+		margin-left: -50px;
+	}
+	.menu, .menu2, .menu3  {
+		display: none;
+	}
+	.menu1{
+		width: 100%;
+		height: 100%;
+	}
+	.logohijaupesanmasuk {
+		width: auto;
+		height: 10px;
+		position: relative;
+		margin-left: -205px;
+		margin-top: 15px;
+		border: 1px solid black;
+	}
+	.namatemen {
+		margin-left: -100px;
+		margin-top: 0px;
+		color: white;  
+		font-size: 14px; 
+	}
+	.statustemen{
+		margin-left: -42px;
+		margin-top: -15px;
+		font-size: 8px; 
+		color : white;
+	}
+	.logosetting {
+		margin-left: 200px;
+		margin-top: -50px;
+	}
+	.group, .add {
+		width: 40%;
+	}
+	.logohijauprofilekita img{
+		margin-left: -310px;
+		margin-top: 5px;
+		border: 1px solid black;
+	}
+	.fototeman {
+		width: 20%;
+	}
+	.search input[type=text]{
+		width: 90%;
+		border: 1px solid black;
+		margin-left: 0px;
+	}
+	.penjelasnamagroup {
+		margin-top: -30px;
+		margin-left: 40px;
+		width: 100%;
+		border: none;
+	}
+	.namatemenkita {
+		font-size: 14px;
+		margin-top: 5px;
+		margin-right: 60px;
+	}
+	.addmessege input[type=text] {
+		width : 90%;
+		margin-left: -10;
+	}
+	.Tanggal1 {
+		font-size: 8px;
+		margin-right: 250px;
+		width: 90px;
+	}
+	.Tanggal2 {
+		width: 90px;
+		font-size: 8px;
+		margin-right: -250px;
+	}
+	.isichat, .akhirchat {
+		margin-top: 15px;
+	}
+	.kotakadd {
+		display: none;
+	}
+	.namatemen, .statustemen {
+		margin-right: 20px;
+	}
+	.Tanggal1, .Tanggal2, .Tanggal3 {
+		width: 90px;
+		font-size: 8px;
+		margin-left: 180px;
+		padding-top: 12px;
+	}
+	.isichat, .akhirchat {
+		margin-left: -60px;
+		margin-top: 15px;
+		font-size: 8px;	
+	}
+	.kotakadd {
+		display: none;
+	}
+	.namatemen, .statustemen {
+		margin-right: 20px;
+	}
+
+	.keteranganonline h3 {
+		margin-right: 50px;
+	}
+	.isichat, .akhirisichat {
+		margin-left: -60px;
+		margin-top: 15px;
+		font-size: 8px;
+	}
+	.kotakadd {
+		display: none;
+	}
+	.namakita {
+		margin-right: 70px;
+		margin-top: 5px;
+	}
+	.statusanda {
+		margin-right: 130px;
+	}
+	.logosetting {
+		margin-right: 50px;
+	}
+	.katapesanmasuk {
+		margin-right: 100px;
+	}
+	.namatemenkita {
+		font-size: 12px;
+		margin-right: 70px;
+	}
+}
+@media only screen and (max-width: 1300px) {
+	.logohijaupesanmasuk {
+		width: auto;
+		height: 10px;
+		position: relative;
+		left: 10;
+		top: -53;
+	}
+	.namakita, .statusanda {
+		font-size: 10px;
+		margin-left: 45px;
+	}
+	.logohijauprofilekita {
+		margin-left: -15px;
+		margin-top: -2px;
+	}
+	.logosetting {
+		width: 20px;
+		height: 20px;
+		margin-left: 145px;
+		margin-top: -25px;
+	}
+}
+@media only screen and (max-width: 1700px) {
+	.logohijaupesanmasuk {
+		width: auto;
+		height: 10px;
+		position: relative;
+		left: 20;
+		top: -27;
+	}
+	.namakita, .statusanda {
+		font-size: 11px;
+		margin-left: 60px;
+	}
+	.logohijauprofilekita {
+		margin-left: -7px;
+		margin-top: -2px;
+	}
+	.logosetting {
+		width: 20px;
+		height: 20px;
+		margin-left: 180px;
+		margin-top: -25px;
+	}
+}
